@@ -1,0 +1,31 @@
+.article-class {
+}
+.article-head {
+    margin: 10px 0px 10px 40px;
+}
+.article-search {
+    width: 50%;
+    margin: 0px 20px 0px 5%;
+}
+.article-button {
+    margin-right: 10px;
+}
+.article-list {
+    width: 95%;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #aaaaaa;
+}
+.article-title {
+    margin: 5px 0px 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.article-photo {
+    max-width: 400px;
+    margin: 5px 0px 10px 10px;
+}
+.article-author {
+    margin: 5px 0px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
