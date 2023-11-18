@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import './SignIn.css';
+import { auth } from '../Firebase/Firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import loginPhoto from '../Login/Login_page_photo.jpg';
+import loginPhoto from '../SignIn/Login_page_photo.jpg';
+import './SignIn.css';
 
 const SignIn = (props) => {
     const history = useNavigate();
@@ -48,7 +49,7 @@ const SignIn = (props) => {
 
                 <button className="login-button" type="submit">Login</button>
                 {error && <div className="error">{error}</div>}
-                <Link to="/register" className="link-login">Don't have an account? Register here.</Link>
+                <Link to="/signup" className="link-login">Don't have an account? Register here.</Link>
             </form>
         </div>
     );

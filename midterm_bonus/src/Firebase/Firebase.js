@@ -10,14 +10,13 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCSyUFqXhuB10hI9Wt6z3ZL_RBcq_LJch8",
-  authDomain: "unibuddy-ac4e1.firebaseapp.com",
-  databaseURL: "https://unibuddy-ac4e1-default-rtdb.firebaseio.com",
-  projectId: "unibuddy-ac4e1",
-  storageBucket: "unibuddy-ac4e1.appspot.com",
-  messagingSenderId: "396355623147",
-  appId: "1:396355623147:web:d3d34a9379c78e554586ae",
-  measurementId: "G-KXGVHYN137"
+  apiKey: "AIzaSyDWqXpIrQYtS2qPCOuvGYA9UN2yVYKSWAY",
+  authDomain: "telegram-39192.firebaseapp.com",
+  projectId: "telegram-39192",
+  storageBucket: "telegram-39192.appspot.com",
+  messagingSenderId: "693537052988",
+  appId: "1:693537052988:web:6dca359e2ef34579f6a639",
+  measurementId: "G-N69G90R90M"
 };
 
 const app = initializeApp(firebaseConfig);
