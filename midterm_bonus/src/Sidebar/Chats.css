@@ -1,0 +1,57 @@
+.chats-container {
+    display: flex;
+}
+
+.leftbar {
+    width: 23%;
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+}
+
+.chats-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.chat-list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.chat-list.active {
+    background-color: #909090;
+}
+
+.chats-photo-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.chat-info {
+    cursor: pointer;
+}
+
+.chat p {
+margin: 0;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.chat-messages {
+flex: 1;
+padding: 10px;
+}
+
+.message {
+margin-bottom: 10px;
+}  

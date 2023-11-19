@@ -21,7 +21,7 @@ const SignIn = (props) => {
         signInWithEmailAndPassword(auth, email, password)
             .then(() => {
                 props.onSignIn();
-                history('/chat');
+                history('/chat-before');
             })
             .catch((error) => {
               setError("Invalid email or password. Please try again.");

@@ -1,10 +1,10 @@
 .auth-container {
-    max-width: 40%;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 20px;;
-  }
+  max-width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 20px;
+}
 
 .register {
   margin-top: 10%;
@@ -15,45 +15,44 @@
   flex-direction: column;
   align-items: center;
 }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    /* color: #000000; */
-  }
-  
-  input {
-    width: 80%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #b7b7b7;
-    border-radius: 5px;
-  }
-  
-  .login-button {
-    width: 50%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  .login-button:hover {
-    background: linear-gradient(to bottom, #007bff, #0159b8);
-  }
-  
-  .link-login {
-    text-decoration: none;
-    color: #007bff;
-  }
 
-  .error {
-    margin-bottom: 5px;
-    color: #ff0000;
-    font-weight: bold;
-  }
-  
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  /* color: #000000; */
+}
+
+input {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background: linear-gradient(to bottom, #007bff, #0159b8);
+}
+
+.link-login {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.error {
+  margin-bottom: 5px;
+  color: #ff0000;
+  font-weight: bold;
+}
